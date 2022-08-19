@@ -1,0 +1,18 @@
+.ES1J :1 ;Fairchild ES1J SMT Fast Recovery Diode, 600V 1A, 35ns, 2-Pin DO-214AC
+DIOM5227X250N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN ES1J
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (ES1J)
+~!Mouser Part Number (512-ES1J)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/ES1J?qs=ZaZfTJZxiphg%252BqNC2EhLqQ%3D%3D)
+~!Arrow Part Number (ES1J)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/es1j/on-semiconductor?region=nac)
+~!Link Datasheet (http://www.onsemi.com/PowerSolutions/product.do?id=ES1J)
+~!Height (2.5mm)
+~!3D_Model (ES1J)
+ES1J
+1.1!U 2.1!U 

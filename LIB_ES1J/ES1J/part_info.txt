@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=ES1J
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.1
+Released=2017-12-08 04:47:56
+Downloaded=2022-08-16 16:36:49
+3D=Y

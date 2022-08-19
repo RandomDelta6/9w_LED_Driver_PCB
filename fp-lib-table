@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "9W LED driver")(type KiCad)(uri "${KIPRJMOD}/9W LED driver.pretty")(options "")(descr ""))
+)

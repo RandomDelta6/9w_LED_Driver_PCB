@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ES1J
+D Fairchild ES1J SMT Fast Recovery Diode, 600V 1A, 35ns, 2-Pin DO-214AC
+K
+F http://www.onsemi.com/PowerSolutions/product.do?id=ES1J
+$ENDCMP
+#
+#End Doc Library
