@@ -185,13 +185,6 @@ Wire Wire Line
 Connection ~ 3300 2450
 Connection ~ 4100 2450
 Connection ~ 3300 2750
-Wire Wire Line
-	7200 3600 7200 3700
-Wire Wire Line
-	7400 3700 7400 3600
-Wire Wire Line
-	7200 3700 7400 3700
-Connection ~ 7400 3700
 $Comp
 L Device:R R9
 U 1 1 62FECBB2
@@ -203,7 +196,6 @@ F 3 "~" H 8100 3550 50  0001 C CNN
 	1    8100 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 8100 3700
 $Comp
 L Device:R R10
 U 1 1 62FED1E6
@@ -309,17 +301,6 @@ Wire Wire Line
 	6900 3200 6900 2900
 Wire Wire Line
 	6900 2900 7000 2900
-$Comp
-L LED~Driver:Si_9752 IC1
-U 1 1 62FC9570
-P 7150 3250
-F 0 "IC1" H 7150 3815 50  0000 C CNN
-F 1 "SIC 9752 680PY89" H 7150 3724 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7150 3250 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005588A.pdf" H 7150 3250 50  0001 C CNN
-	1    7150 3250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5700 2750 5700 2950
 Wire Wire Line
@@ -376,8 +357,6 @@ Wire Notes Line
 Wire Notes Line
 	10700 2250 10700 3850
 Wire Notes Line
-	10700 3850 700  3850
-Wire Notes Line
 	700  3850 700  2250
 Connection ~ 4200 3250
 Wire Wire Line
@@ -391,7 +370,7 @@ L Device:R R3
 U 1 1 62FBA232
 P 2400 1750
 F 0 "R3" H 2470 1796 50  0000 L CNN
-F 1 "SMD 473" H 2470 1705 50  0000 L CNN
+F 1 "R SMD 473" H 2470 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 1750 50  0001 C CNN
 F 3 "~" H 2400 1750 50  0001 C CNN
 	1    2400 1750
@@ -446,8 +425,6 @@ Wire Wire Line
 	7000 3650 7000 3600
 Connection ~ 6800 3650
 Wire Wire Line
-	7400 3700 8100 3700
-Wire Wire Line
 	7950 2750 8550 2750
 Wire Wire Line
 	8550 2750 8550 3300
@@ -457,8 +434,6 @@ Wire Wire Line
 	8550 3300 9500 3300
 Wire Wire Line
 	7000 3650 7000 3750
-Wire Wire Line
-	7000 3750 9500 3750
 Connection ~ 7000 3650
 $Comp
 L Mechanical:MountingHole_Pad H2
@@ -549,4 +524,29 @@ F 3 "~" H 1750 3500 50  0001 C CNN
 	1    1750 3500
 	0    -1   -1   0   
 $EndComp
+Connection ~ 8100 3700
+$Comp
+L 9W-LED-driver-rescue:Si_9752-LED_Driver IC1
+U 1 1 63D2D7C2
+P 7150 3250
+F 0 "IC1" V 7104 3678 50  0000 L CNN
+F 1 "SIC 9752 680PY89" V 7195 3678 50  0000 L CNN
+F 2 "" H 7150 2700 50  0001 C CNN
+F 3 "" H 7150 2700 50  0001 C CNN
+	1    7150 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3750 9500 3750
+Wire Wire Line
+	7400 3700 8100 3700
+Wire Notes Line
+	10700 3850 700  3850
+Connection ~ 7400 3700
+Wire Wire Line
+	7200 3700 7400 3700
+Wire Wire Line
+	7400 3700 7400 3600
+Wire Wire Line
+	7200 3600 7200 3700
 $EndSCHEMATC
