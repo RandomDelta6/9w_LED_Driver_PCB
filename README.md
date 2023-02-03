@@ -32,7 +32,7 @@ This pcb is intended for LED bulbs with an opaque lower half body and tranlucent
 
 # Notes
 
-Although I am pretty confident the board should work, I am not particularly sure about the values of C5,C6 and R8. Please have the board verified by a professional. 
+Although I am pretty confident the board should work, I am not particularly sure about the values of C5,C6 and R8. Please have the board verified by a professional before deploying in production. 
 
 Couldn't find a proper model for the Inductor L2, so it is missing on the back preview of the PCB. Didn't bother with it since it doesn't really matter much. Couldn't find the proper model for Film Capacitor C1. In reality it would look like a brown pillow with the same pin to pin footprint as in the board preview.
 
