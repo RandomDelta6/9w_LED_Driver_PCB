@@ -558,7 +558,7 @@
   (module "9W LED driver:Pad" (layer F.Cu) (tedit 63D8CCC5) (tstamp 63D8D54D)
     (at 98.59264 55.07228)
     (path /63E3BE97)
-    (fp_text reference + (at -1.69164 -0.20828) (layer F.SilkS)
+    (fp_text reference + (at -1.69164 -0.58928) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "+ve Output" (at -0.0635 -1.7145) (layer F.Fab)

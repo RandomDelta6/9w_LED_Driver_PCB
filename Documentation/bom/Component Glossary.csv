@@ -1,0 +1,26 @@
+﻿Sl. No.,Notation,Type,Description,Value,Particulars,Remarks
+1,BR1,Bridge Rectifier,_+-AA,1PHASE 1KV 800MA,MB10F 1/6K,
+2,C1,Capacitor,Film,3.3uF 400V,CY400 473KE,
+3,C2,Capacitor,Ceramic,0.01uF 1KV ,Ceramic 103,Optional - Noise Suppression
+4,C3,Capacitor,Electrolytic,4.7uF 50v,,
+5,C4,Capacitor,Electrolytic,82uF 80V,,
+6,C5,Capacitor,SMD MLCC 0603,100pF 100V,,Connect either c6 or c5
+7,C6,Capacitor,Ceramic,100pF 100V,,Connect either c6 or c5
+8,D1,Diode,,,ES1J,
+9,D2,Diode,,,ES1J,
+10,F1,Resistor,Metal film,56ohm ± 5%,Fusible resistor,Protects against inrush current
+11,F2,Resistor,Metal film,56ohm ± 5%,Fusible resistor,Protects against inrush current
+12,IC1,Controller ,SMD DIP8,,SIC 9752,Buck APFC Driver
+13,L1,Inductor,Radial-cylinderical,7mH,Choke Coil ,
+14,L2,Inductor,EE10,2.1mH 200V,Transformer wound,Maintains power on falling edge of current signal - Flicker free continuous operation
+15,MOV1,Varistor,Metal Oxide,,MOV-07D511K 320V 100pF 10%,
+16,R1,Resistor,SMD 0805,330kΩ,334,
+17,R2,Resistor,SMD 0805,330kΩ,334,
+18,R3,Resistor,SMD 0805,47 kΩ,473,
+19,R4,Resistor,SMD 0805,24 kΩ,243,
+20,R5,Resistor,SMD 0805,150 kΩ,154,
+21,R6,Resistor,SMD 0805,150 kΩ,154,
+22,R7,Resistor,SMD 0805,210 Ω,211,
+23,R8,Resistor,SMD 0805,3.3 Ω,3R30, NC if C6 is NC
+24,R9,Resistor,SMD 0805,3.3 Ω,3R30,
+25,R10,Resistor,SMD 0805,3.3 Ω,3R30,
