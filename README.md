@@ -8,13 +8,13 @@ This a power supply that feeds mains to power a 9w led array for general illumin
 # PCB
 <img src="https://user-images.githubusercontent.com/53912269/216521769-cab54fea-e722-42c3-ad62-2b289e68f1ba.png" width ="500">        
 
-PCB Front Preview
+PCB Front View
 
 
 
 <img src="https://user-images.githubusercontent.com/53912269/216521137-b2e17857-9e0b-4b3a-a612-097903e77f13.png" width ="500">
 
-PCB Back Preview
+PCB Back View
 
 
 
@@ -26,15 +26,15 @@ For B22 Base, thread the free legs of the fusible resistors through the holes on
 
 <img src="https://user-images.githubusercontent.com/53912269/216541573-0ba32cf6-7e1a-48ee-814a-6a942b9e8bfa.png" width ="250"><img src="https://user-images.githubusercontent.com/53912269/216548513-6dfde565-9b17-46ed-a2b4-29f55d74385e.png" width ="350">
 
-This pcb is intended for LED bulbs with an opaque lower half body and tranlucent/ transparent cap (as pictured above) and not for the ones featuring a fully transparent or tranlucent body. This pcb is tuned for a 220V AC Power Input. This pcb expects a DOB grid of LED chips only, of 9W dissipation on the output and not a DOB board featuring other components (as illustrated above). DOB boards typically have an aluminimum substrate to aid in heat dissipation and are thermally coupled to an aluminium disc for larger thermal mass and surface area to aid in heat dissipation. The pcb must be suspended or have the front surface isolated by a layer of Kapton tape incase the opaque lower half of the bulb features an aluminium plating for heat dissipation. The pcb must be completely isolated electrically from any other metal surfaces except as specified in the first paragraph of usage directions.
+This pcb is intended for LED bulbs with an opaque lower half body and translucent/ transparent cap (as pictured above) and not for the ones featuring a fully transparent or translucent body. This pcb is tuned for a 220V AC Power Input. This pcb expects a DOB grid of LED chips only, of 9W dissipation on the output and not a DOB board featuring other components (as illustrated above). DOB boards typically have an aluminimum substrate to aid in heat dissipation and are thermally coupled to an aluminium disc for larger thermal mass and surface area to aid in heat dissipation. The pcb must be suspended or have the front surface isolated by a layer of Kapton tape incase the opaque lower half of the bulb features aluminium plating for heat dissipation. The pcb must be completely isolated electrically from any other metal surfaces except as specified in the first paragraph of usage directions.
 
 
 
 # Notes
 
-Although I am pretty confident the board should work, I am not particularly sure about the values of C5,C6 and R8. Please have the board verified by a professional before deploying in production. 
+Although I am pretty confident the board should work, I am not particularly sure about the values of C5, C6 and R8. Please have the board verified by a professional before deploying in production. 
 
-Couldn't find a proper model for the Inductor L2, so it is missing on the back preview of the PCB. Didn't bother with it since it doesn't really matter much. Couldn't find the proper model for Film Capacitor C1. In reality it would look like a brown pillow with the same pin to pin footprint as in the board preview.
+Couldn't find a proper model for Inductor L2, so it is missing on the back view of the PCB. Didn't bother with it since it doesn't really matter much. Couldn't find the proper model for Film Capacitor C1. In reality it would look like a brown pillow with the same pin to pin footprint as in the back view of pcb.
 
 This project has been made with Kicad 5.1.10
 
