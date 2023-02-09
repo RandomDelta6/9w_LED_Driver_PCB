@@ -209,22 +209,7 @@ F 3 "" H 5600 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 3750 5600 3600
-$Comp
-L power:GNDS #PWR0105
-U 1 1 63F322DE
-P 3700 3650
-F 0 "#PWR0105" H 3700 3400 50  0001 C CNN
-F 1 "GNDS" H 3435 3556 50  0000 L BNN
-F 2 "" H 3700 3650 50  0001 C CNN
-F 3 "" H 3700 3650 50  0001 C CNN
-	1    3700 3650
-	1    0    0    -1  
-$EndComp
-Text GLabel 4700 2550 2    50   Input ~ 0
-+ve_output
-Wire Wire Line
-	4700 2900 4500 2900
-Text GLabel 4700 2900 2    50   Input ~ 0
+Text GLabel 4550 2550 2    50   Input ~ 0
 +ve_output
 $Comp
 L Device:R R6
@@ -236,19 +221,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 3530 2900 50  0001 C CNN
 F 3 "~" H 3600 2900 50  0001 C CNN
 	1    3600 2900
 	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4350 3900 4350 4000
-$Comp
-L Device:C C3
-U 1 1 63DED026
-P 4350 3750
-F 0 "C3" H 4465 3796 50  0000 L CNN
-F 1 "C 4.7uF 50v" H 4465 3705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4388 3600 50  0001 C CNN
-F 3 "~" H 4350 3750 50  0001 C CNN
-	1    4350 3750
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 2900 2500 3100
@@ -285,60 +257,26 @@ F 3 "~" H 1550 2900 50  0001 C CNN
 	1    1550 2900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2150 3500 2150 3750
-Wire Wire Line
-	2500 3500 2150 3500
-Text GLabel 1150 3750 0    50   Input ~ 0
+Text GLabel 1150 3500 0    50   Input ~ 0
 +ve_Rail
-Wire Wire Line
-	1400 3750 1150 3750
-Wire Wire Line
-	1850 3750 1700 3750
 $Comp
 L Device:R R8
 U 1 1 63E119C4
-P 2000 3750
-F 0 "R8" V 1890 3750 50  0000 C CNN
-F 1 "R SMD 3R30" V 2087 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1930 3750 50  0001 C CNN
-F 3 "~" H 2000 3750 50  0001 C CNN
-	1    2000 3750
+P 2050 3500
+F 0 "R8" V 1940 3500 50  0000 C CNN
+F 1 "R SMD 3R30" V 1861 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 3500 50  0001 C CNN
+F 3 "~" H 2050 3500 50  0001 C CNN
+	1    2050 3500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 3800 3200 3500
 Wire Wire Line
 	2500 3500 2500 3800
 Wire Wire Line
 	2300 3300 2500 3300
 Connection ~ 2300 3300
 Wire Wire Line
-	2300 4000 4350 4000
-Wire Wire Line
 	2300 3300 2300 4000
-$Comp
-L Device:R R9
-U 1 1 63DE071B
-P 4000 3250
-F 0 "R9" H 4070 3296 50  0000 L CNN
-F 1 "R SMD 3R30" H 4070 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 3250 50  0001 C CNN
-F 3 "~" H 4000 3250 50  0001 C CNN
-	1    4000 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 63DE0715
-P 4700 3250
-F 0 "R10" H 4770 3296 50  0000 L CNN
-F 1 "R SMD 3R30" H 4770 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4630 3250 50  0001 C CNN
-F 3 "~" H 4700 3250 50  0001 C CNN
-	1    4700 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 3300 2300 3300
 Text GLabel 1150 3300 0    50   Input ~ 0
@@ -387,56 +325,15 @@ Wire Notes Line
 Wire Wire Line
 	3200 2900 3450 2900
 Wire Wire Line
-	3200 2900 3200 2550
-Wire Wire Line
 	3200 2550 3450 2550
-Connection ~ 3200 2900
 Wire Wire Line
 	3200 3100 3200 3300
-Connection ~ 3200 3100
-Connection ~ 3200 3300
-Wire Wire Line
-	3200 3300 3700 3300
-Wire Wire Line
-	3200 3100 4000 3100
-Wire Wire Line
-	4000 3400 4350 3400
-Wire Wire Line
-	4350 3400 4350 3600
-Connection ~ 4350 3400
-Wire Wire Line
-	4350 3400 4700 3400
-Wire Wire Line
-	3700 3600 3700 3650
-Connection ~ 3850 2900
 Wire Wire Line
 	3750 2900 3850 2900
-Wire Wire Line
-	3850 2900 4000 2900
-Wire Wire Line
-	3850 3800 3200 3800
-Wire Wire Line
-	3850 2900 3850 3800
-$Comp
-L Device:D D2
-U 1 1 63F374A9
-P 3700 3450
-F 0 "D2" V 3746 3370 50  0000 R CNN
-F 1 "D ES1J" V 3655 3370 50  0000 R CNN
-F 2 "9W LED driver:DIOM5227X250N" H 3700 3450 50  0001 C CNN
-F 3 "~" H 3700 3450 50  0001 C CNN
-	1    3700 3450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 3100 4000 3100
-Connection ~ 4000 3100
 Wire Wire Line
 	1150 2550 2500 2550
 Wire Wire Line
 	2500 2550 2500 2900
-Wire Wire Line
-	3750 2550 4700 2550
 $Comp
 L Device:R R7
 U 1 1 63F68F67
@@ -448,33 +345,10 @@ F 3 "~" H 3600 2550 50  0001 C CNN
 	1    3600 2550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 63DFAE5C
-P 2850 3800
-F 0 "C5" V 2697 3799 50  0000 C CNN
-F 1 "C 100pF 50V" V 2972 3780 50  0000 C TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 3650 50  0001 C CNN
-F 3 "~" H 2850 3800 50  0001 C CNN
-	1    2850 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 3800 2700 3800
 Wire Wire Line
 	3000 3800 3200 3800
-Connection ~ 3200 3800
-$Comp
-L Device:C C6
-U 1 1 63E15874
-P 1550 3750
-F 0 "C6" V 1400 3701 50  0000 L CNN
-F 1 "C 100pF 50V" V 1676 3780 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 1588 3600 50  0001 C CNN
-F 3 "~" H 1550 3750 50  0001 C CNN
-	1    1550 3750
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	700  4150 7250 4150
 Wire Notes Line
@@ -531,7 +405,6 @@ Text GLabel 6850 3100 1    50   Input ~ 0
 +ve_Rail
 Wire Wire Line
 	6850 3100 6850 3250
-Connection ~ 2500 3500
 $Comp
 L power:GNDS #PWR0103
 U 1 1 63D91799
@@ -560,15 +433,150 @@ Wire Wire Line
 	3900 1400 3750 1400
 Wire Wire Line
 	3750 1400 3750 1450
+Wire Wire Line
+	2300 4000 4350 4000
+$Comp
+L Device:R R9
+U 1 1 63DE071B
+P 4000 3350
+F 0 "R9" H 4070 3396 50  0000 L CNN
+F 1 "R SMD 3R30" H 4070 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 3350 50  0001 C CNN
+F 3 "~" H 4000 3350 50  0001 C CNN
+	1    4000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2550 3200 2900
+Connection ~ 3200 2900
+$Comp
+L power:GNDS #PWR0105
+U 1 1 63F322DE
+P 3750 3350
+F 0 "#PWR0105" H 3750 3100 50  0001 C CNN
+F 1 "GNDS" H 3485 3256 50  0000 L BNN
+F 2 "" H 3750 3350 50  0001 C CNN
+F 3 "" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 63E15874
+P 1450 3500
+F 0 "C6" V 1584 3451 50  0000 L CNN
+F 1 "C 100pF 50V" V 1654 3530 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 1488 3350 50  0001 C CNN
+F 3 "~" H 1450 3500 50  0001 C CNN
+	1    1450 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3500 1900 3500
+Wire Wire Line
+	1300 3500 1150 3500
+Wire Wire Line
+	2200 3500 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	3850 2900 3850 3500
+$Comp
+L Device:D D2
+U 1 1 63F374A9
+P 3450 3300
+F 0 "D2" H 3457 3386 50  0000 C CNN
+F 1 "D ES1J" H 3615 3465 50  0000 R CNN
+F 2 "9W LED driver:DIOM5227X250N" H 3450 3300 50  0001 C CNN
+F 3 "~" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3300 3750 3300
+Wire Wire Line
+	3750 3300 3750 3350
+$Comp
+L Device:C C5
+U 1 1 63DFAE5C
+P 2850 3800
+F 0 "C5" V 2697 3799 50  0000 C CNN
+F 1 "C 100pF 50V" V 2972 3780 50  0000 C TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 3650 50  0001 C CNN
+F 3 "~" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3500 3200 3800
+Wire Wire Line
+	3200 3500 3850 3500
+Connection ~ 3200 3500
+Wire Wire Line
+	4000 3500 4350 3500
+$Comp
+L Device:R R10
+U 1 1 63DE0715
+P 4700 3350
+F 0 "R10" H 4770 3396 50  0000 L CNN
+F 1 "R SMD 3R30" H 4770 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4630 3350 50  0001 C CNN
+F 3 "~" H 4700 3350 50  0001 C CNN
+	1    4700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3200 4350 3200
+Wire Wire Line
+	4350 3200 4700 3200
+Connection ~ 4350 3200
+Wire Wire Line
+	4350 3100 4350 3200
 $Comp
 L pspice:INDUCTOR L2
 U 1 1 63F68F60
 P 4250 2900
-F 0 "L2" H 4204 2738 50  0000 L CNN
-F 1 "transformer" H 4252 2856 50  0000 C TNN
+F 0 "L2" H 4268 2717 50  0000 C CNN
+F 1 "transformer" H 4220 2835 50  0000 C TNN
 F 2 "9W LED driver:Inductor_Transformer" H 4250 2900 50  0001 C CNN
 F 3 "~" H 4250 2900 50  0001 C CNN
 	1    4250 2900
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3100 4350 3100
+Connection ~ 3200 3100
+Wire Wire Line
+	3850 2900 4000 2900
+Connection ~ 3850 2900
+Wire Wire Line
+	4350 3500 4350 3600
+Connection ~ 4350 3500
+Wire Wire Line
+	4350 3500 4700 3500
+Wire Wire Line
+	3850 3500 4000 3500
+Connection ~ 3850 3500
+Connection ~ 4000 3500
+Wire Wire Line
+	3750 2550 4550 2550
+Wire Wire Line
+	4500 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 2550
+Wire Wire Line
+	3300 3300 3200 3300
+Connection ~ 3200 3300
+Wire Wire Line
+	4350 3900 4350 4000
+$Comp
+L Device:C C3
+U 1 1 63DED026
+P 4350 3750
+F 0 "C3" H 4465 3796 50  0000 L CNN
+F 1 "C 4.7uF 50v" H 4465 3705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4388 3600 50  0001 C CNN
+F 3 "~" H 4350 3750 50  0001 C CNN
+	1    4350 3750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@
 This a power supply that feeds mains to power a 9w led array for general illumination (60W Incandescent equivalent). The circuit is based around the Sic 9752 microcontroller which provides Active PFC (Power Factor Correction) for high power factor and low THD. Its also a non isolated buck driver which allows it have >95% power efficiency and a simple compact circuit. It also features over current protection, over temperature protection, short circuit protection, low startup and operating current and flicker free continuous mode operation. It also features QoL features such as soft start and a discharge resistor to ensure no ghost glow and fast cutoff when switched off.
 
 # Schematic
-<img src= "https://user-images.githubusercontent.com/53912269/216520380-063c7d63-8e19-4aa3-a53e-b256b27be9e9.jpg"  width="750"> 
+<img src= "https://user-images.githubusercontent.com/53912269/217740128-59f09bf2-2527-49be-9d4a-99dc3b93b5d8.jpg"  width="750"> 
 
 # PCB
 <img src="https://user-images.githubusercontent.com/53912269/216521769-cab54fea-e722-42c3-ad62-2b289e68f1ba.png" width ="500">        
