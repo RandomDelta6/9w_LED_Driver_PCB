@@ -1,6 +1,6 @@
 # Introduction
 
-This a power supply that feeds mains to power a 9w led array for general illumination (60W Incandescent equivalent). The circuit is based around the Sic 9752 microcontroller which provides Active PFC (Power Factor Correction) for high power factor and low THD. Its also a non isolated buck driver which allows it have >95% power efficiency and a simple compact circuit. It also features over current protection, over temperature protection, short circuit protection, low startup and operating current and flicker free continuous mode operation. It also features QoL features such as soft start and a discharge resistor to ensure no ghost glow and fast cutoff when switched off.
+This a power supply that feeds mains to power a 9w led array for general illumination (60W Incandescent equivalent). The circuit is based around the Sic 9752 microcontroller which provides Active PFC (Power Factor Correction) for high power factor and low THD. Its also a non isolated buck driver which allows it have >95% power efficiency and a simple compact circuit. It also features over current protection, over temperature protection, short circuit protection, low startup and operating current and flicker free continuous mode operation. It also incorporates QoL features such as soft start and a discharge resistor to ensure no ghost glow and fast cutoff when switched off.
 
 # Schematic
 <img src= "https://user-images.githubusercontent.com/53912269/231061093-8846f867-614a-4684-b61c-defe5d11b736.jpg"  width="750"> 
@@ -32,7 +32,7 @@ This pcb is intended for LED bulbs with an opaque lower half body and translucen
 
 # Notes
 
-Although I am pretty confident the board should work, please have the board verified by a professional before deploying in production. I am not particularly sure about the value of C5. C6 and R8 are not to be connected for intended use as a 9w LED Driver PCB
+Although I am pretty confident the board should work, please have the board verified by a professional before deploying in production. I am not particularly sure about the value of C5. C6 and R8 are not to be connected for intended use as a 9w LED Driver PCB.
 
 Couldn't find a proper model for Inductor L2, so it is missing on the back view of the PCB. Didn't bother with it since it doesn't really matter much. Couldn't find the proper model for Film Capacitor C1. In reality it would look like a brown pillow with the same pin to pin footprint as in the back view of pcb.
 
