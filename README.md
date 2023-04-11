@@ -3,16 +3,16 @@
 This a power supply that feeds mains to power a 9w led array for general illumination (60W Incandescent equivalent). The circuit is based around the Sic 9752 microcontroller which provides Active PFC (Power Factor Correction) for high power factor and low THD. Its also a non isolated buck driver which allows it have >95% power efficiency and a simple compact circuit. It also features over current protection, over temperature protection, short circuit protection, low startup and operating current and flicker free continuous mode operation. It also features QoL features such as soft start and a discharge resistor to ensure no ghost glow and fast cutoff when switched off.
 
 # Schematic
-<img src= "https://user-images.githubusercontent.com/53912269/217740128-59f09bf2-2527-49be-9d4a-99dc3b93b5d8.jpg"  width="750"> 
+<img src= "https://user-images.githubusercontent.com/53912269/231061093-8846f867-614a-4684-b61c-defe5d11b736.jpg"  width="750"> 
 
 # PCB
-<img src="https://user-images.githubusercontent.com/53912269/216521769-cab54fea-e722-42c3-ad62-2b289e68f1ba.png" width ="500">        
+<img src="https://user-images.githubusercontent.com/53912269/231062205-3de47a80-8488-4ee8-a004-4f29ac0e4eab.png" width ="500">        
 
 PCB Front View
 
 
 
-<img src="https://user-images.githubusercontent.com/53912269/216521137-b2e17857-9e0b-4b3a-a612-097903e77f13.png" width ="500">
+<img src="https://user-images.githubusercontent.com/53912269/231062108-d7378ae8-3cb9-499a-a06f-dd729c752124.png" width ="500">
 
 PCB Back View
 
@@ -20,7 +20,7 @@ PCB Back View
 
 # Usage
 
-Connect a wire from +ve pad of LED grid to +ve pad of this pcb. Connect a wire from -ve pad of LED grid to -ve pad of this pcb. Thread in the exposed part of the wire through the hole from the back of the pcb and solder it on the front side.
+Wave Solder all SMD components on the front side of the board. Then, thread in the THT components through their respective through holes from the back side and solder on to the front side. Snip off excess length of the legs after soldering. Solder a wire from +ve pad of LED grid to +ve output pad of this pcb. Solder a wire from -ve pad of LED grid to -ve output pad of this pcb. Thread in the wire through the hole from the back of the pcb and solder it on the front side.
 
 For B22 Base, thread the free legs of the fusible resistors through the holes on the bottom of the base. Apply sufficient amount of solder to make the contact points for the bulb with the electrical socket. Snip off excess length of the legs after soldering. For E26/27 Base, solder one leg to the bottom contact of the base and solder the other leg to the side contact of the base.
 
@@ -32,11 +32,11 @@ This pcb is intended for LED bulbs with an opaque lower half body and translucen
 
 # Notes
 
-Although I am pretty confident the board should work, I am not particularly sure about the values of C5, C6 and R8. Please have the board verified by a professional before deploying in production. 
+Although I am pretty confident the board should work, please have the board verified by a professional before deploying in production. I am not particularly sure about the value of C5. C6 and R8 are not to be connected for intended use as a 9w LED Driver PCB
 
 Couldn't find a proper model for Inductor L2, so it is missing on the back view of the PCB. Didn't bother with it since it doesn't really matter much. Couldn't find the proper model for Film Capacitor C1. In reality it would look like a brown pillow with the same pin to pin footprint as in the back view of pcb.
 
-This project has been made with Kicad 5.1.10
+This project was initially made with Kicad 5.1.10 and later updated on Kicad 7.0
 
 While exporting for fabrication the back solder mask layer may be ignored to save on manufacturing costs as it serves no purpose.
 
